@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>混凝土梁正截面承载力计算</title>
+  <style>
+    body { font-family: "Microsoft YaHei", sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
+    .form-group { margin: 15px 0; }
+    label { display: inline-block; width: 200px; font-weight: bold; }
+    input { padding: 6px; width: 200px; }
+    button { padding: 10px 20px; background: #2E8B57; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    .result { margin-top: 20px; padding: 15px; background: #f5f5f5; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h2>混凝土梁正截面受弯承载力计算（单筋矩形截面）</h2>
+  <div class="form-group">
+    <label>混凝土强度等级 f_c (MPa):</label>
+    <input type="number" id="fc" value="14.3" step="0.1">
+  </div>
+  <div class="form-group">
+    <label>钢筋强度设计值 f_y (MPa):</label>
+    <input type="number" id="fy" value="360" step="10">
+  </div>
+  <div class="form-group">
+    <label>截面宽度 b (mm):</label>
+    <input type="number" id="b" value="200" step="10">
+  </div>
+  <div class="form-group">
+    <label>截面有效高度 h0 (mm):</label>
+    <input type="number" id="h0" value="460" step="10">
+  </div>
+  <div class="form-group">
+    <label>设计弯矩 M (kN·m):</label>
+    <input type="number" id="M" value="100" step="5">
+  </div>
+  <button onclick="calc()">计算配筋</button>
+  <div class="result" id="result"></div>
+
+  <script>
+    function calc() {
+      const fc = parseFloat(document.getElementById('fc').value);
+      const fy = parseFloat(document.getElementById('fy').value);
+      const b = parseFloat(document.getElementById('b').value);
+      const h0 = parseFloat(document.getElementById('h0').value);
+      const M = parseFloat(document.getElementById('M').value) * 1e6; // 转换为 N·mm
+
+      const alpha1 = 1.0;
+      const xi_b = 0.518; // 适筋梁界限受压区高度系数
+      const alpha_s_max = xi_b * (1 - 0.5 * xi_b);
+
+      const alpha_s = M / (alpha1 * fc * b * h0**2);
+      if (alpha_s > alpha_s_max) {
+        document.getElementById('result').innerHTML = "⚠️ 超限：需采用双筋截面或加大截面尺寸！";
+        return;
+      }
+
+      const xi = 1 - Math.sqrt(1 - 2 * alpha_s);
+      const gamma_s = 1 - 0.5 * xi;
+      const As = M / (fy * gamma_s * h0);
+
+      const rho_min = 0.2/100; // 最小配筋率
+      const As_min = rho_min * b * h0;
+      const As_final = Math.max(As, As_min);
+
+      document.getElementById('result').innerHTML = `
+        <p>受压区高度系数 ξ = ${xi.toFixed(3)}</p>
+        <p>内力臂系数 γ_s = ${gamma_s.toFixed(3)}</p>
+        <p>计算配筋面积 A_s = ${As.toFixed(2)} mm²</p>
+        <p>最小配筋面积 A_s,min = ${As_min.toFixed(2)} mm²</p>
+        <p><strong>最终配筋面积 A_s = ${As_final.toFixed(2)} mm²</strong></p>
+      `;
+    }
+  </script>
+</body>
+</html>
