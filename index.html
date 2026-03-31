@@ -5,7 +5,8 @@
   <title>结构工程师干货站 - 规范/教程/计算书一站式库</title>
   <meta name="keywords" content="结构设计,PKPM教程,CAD技巧,结构规范,计算书模板,钢结构,地基基础,消防规范,理正教程">
   <meta name="description" content="结构工程师专属干货站，免费分享结构规范、PKPM/CAD/3D3S教程、混凝土/钢结构计算书模板、Excel工具、标准图集，助力结构设计学习与工作！">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <!-- 国内CDN，加载更快，预览不转圈 -->
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/themes/vue.min.css">
 </head>
 <body>
   <div id="app"></div>
@@ -17,11 +18,17 @@
       subMaxLevel: 3,
       search: 'auto',
       homepage: 'README.md',
-      auto2top: true
+      auto2top: true,
+      router: {
+        mode: 'history',
+        base: '/share/'
+      }
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 国内CDN，解决加载慢 -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/docsify.min.js"></script>
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/plugins/search.min.js"></script>
+
 <style>
 .spec-new {
   color: #f53f3f !important;
@@ -53,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
 
-    const today = new Date().toDateString();
+    const today = new Date().toString();
     const lastAlert = localStorage.getItem('lastSpecAlert');
 
     if (newCount > 0 && lastAlert !== today) {
