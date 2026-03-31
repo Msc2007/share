@@ -22,5 +22,46 @@
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<style>
+.spec-new {
+  color: #f53f3f !important;
+  font-weight: bold;
+  animation: blink 1.2s infinite alternate;
+}
+@keyframes blink {
+  from { opacity: 1; }
+  to { opacity: 0.6; }
+}
+</style>
+
+<script>
+const newSpecs = [
+  "01通用规范（文件夹直达）",
+  "02设计规范（文件夹直达）"
+];
+
+document.addEventListener('DOMContentLoaded', function () {
+  setTimeout(() => {
+    const links = document.querySelectorAll('.app-sub-sidebar a');
+    let newCount = 0;
+
+    links.forEach(a => {
+      const text = a.innerText.trim();
+      if (newSpecs.some(s => text.includes(s))) {
+        a.classList.add('spec-new');
+        newCount++;
+      }
+    });
+
+    const today = new Date().toDateString();
+    const lastAlert = localStorage.getItem('lastSpecAlert');
+
+    if (newCount > 0 && lastAlert !== today) {
+      alert(`📢 规范更新提醒\n\n本次更新 ${newCount} 个分类，请查看红色高亮条目！`);
+      localStorage.setItem('lastSpecAlert', today);
+    }
+  }, 800);
+});
+</script>
 </body>
 </html>
