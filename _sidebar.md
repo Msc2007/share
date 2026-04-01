@@ -3,7 +3,7 @@
 
 - 📖 建筑工程规范大全
   - 🏗️ 01_结构专业
-    - 📜 [01通用规范（文件夹直达）](https://pan.baidu.com/s/5n0uq1tVR3wUoGxCzNsXe-A)
+    - 📜 [01通用规范（文件夹直达）](https://pan.baidu.com/s/1glR0xER2pa4_-Jxi5-Mo2A?pwd=76t1)
       - 01 工程结构通用规范 GB 55001-2021
       - 02 建筑与市政工程抗震通用规范 GB 55002-2021
       - 03 建筑与市政地基基础通用规范 GB 55003-2021
@@ -12,7 +12,7 @@
       - 06 钢结构通用规范 GB 55006-2021
       - 07 砌体结构通用规范 GB 55007-2021
       - 08 混凝土结构通用规范 GB 55008-2021
-    - 📐 [02设计规范 （文件夹直达）](https://pan.baidu.com/s/54NwD31N8uGn1-HGy3y7gLA)
+    - 📐 [02设计规范（文件夹直达）](https://pan.baidu.com/s/1G_haxeYgXkuC235imE2dLQ?pwd=rdp3)
       - 01 建筑结构可靠性设计统一标准 GB 2050068-2024
       - 02 建筑结构荷载规范 GB 50009-2012
       - 03 建筑工程抗震设防分类标准 GB 50223-2008
@@ -21,31 +21,31 @@
       - 06 建筑地基基础设计规范 GB 50007-2011
       - 07 建筑桩基技术规范 JGJ 94-2008
       - 08 建筑基桩检测技术规范 JGJ 106-2014
-    - ✅ [03施工验收规范 （文件夹直达）](https://pan.baidu.com/s/5_VvoyCR2BKLSNlYYd5fonw)
+    - ✅ [03施工验收规范（文件夹直达）](https://pan.baidu.com/s/1dvyI3YRvCpYuiyZgWr7m5w?pwd=9ct3)
       - 01 混凝土结构工程施工质量验收规范 GB 50204-2015
       - 02 钢结构工程施工质量验收标准 GB 50205-2020
       - 03 建筑地基基础工程施工质量验收标准 GB 50202-2018
-    - 🗂️ [04图集  （文件夹直达）]( https://pan.baidu.com/s/5c_qx42gryB23a-iDf0JT9w)
+    - 🗂️ [04图集（文件夹直达）](https://pan.baidu.com/s/1-j66DmDDDOR8GwqPHojm5w?pwd=x23w)
       - 01 22G101系列混凝土结构施工图
       - 02 钢结构连接节点设计手册对应图集
       - 03 建筑地基基础构造图集
-    - 🏗️ [05加固类汇总 （文件夹直达）]( https://pan.baidu.com/s/5Gk1SxY1niOhiD3nf0uJnKw)
+    - 🏗️ [05加固类汇总（文件夹直达）](https://pan.baidu.com/s/1zN1u6GQwDjjMeka28bLw_w?pwd=jypg)
       - 01 混凝土结构加固设计规范 GB 50367-2013
       - 02 钢结构加固技术标准 GB 51367-2019
       - 03 建筑结构加固工程施工质量验收规范 GB 50550-2010
-    - 🧩 [06装配式汇总 （文件夹直达）]( https://pan.baidu.com/s/5nYtBAGAMwi2cYIztUQga6g)
+    - 🧩 [06装配式汇总（文件夹直达）](https://pan.baidu.com/s/1NaZSIcZv3Yest8MO1t3-Fw?pwd=q6y2)
       - 01 装配式混凝土结构技术规程 JGJ 1-2014
       - 02 装配式钢结构建筑技术标准 GB/T 51232-2016
       - 03 装配式混凝土建筑技术标准 GB/T 51231-2016
-    - 📚 [07设计手册（文件夹直达）](https://pan.baidu.com/s/5qGHanZ2KSh0EnNej5I0jGA)
+    - 📚 [07设计手册（文件夹直达）](https://pan.baidu.com/s/10nlVGthKpA-A3vAF8Fx2Bg?pwd=cp23)
       - 01 建筑结构静力计算手册
       - 02 混凝土结构设计手册
       - 03 钢结构设计手册
-    - 📦 [08不常用但归类结构专业规范（文件夹直达）](https://pan.baidu.com/s/59uP6NOCQ9QZ3yrw0c_lxBA)
+    - 📦 [08不常用但归类结构专业规范（文件夹直达）](https://pan.baidu.com/s/11qmC_PEmG-uiKTUmDhcaUQ?pwd=4n9f)
       - 01 混凝土结构耐久性设计与施工指南CCES01-2004
       - 02 石油化工钢制设备抗震设计规范GB50761-2012
       - 03 钢管混凝土拱桥技术规范GB50923-2013
-    -📦 [09不常用但归类结构专业图集（文件夹直达）](https://pan.baidu.com/s/5tKtdU0AptjpqCHL0vB5YVQ)
+    - 📦 [09不常用但归类结构专业图集（文件夹直达）](https://pan.baidu.com/s/1ZB2RimJVbOOYpL6gW-I9ww?pwd=22qv)
       - 01 混凝土雨水检查井YBJ-PS04-2006
       - 02 混凝土模块砌体排水检查井YBJ-PS06-2010
       - 03 埋地无压预制混凝土排水圆形管管基及接口YBJ-PS03-2004
@@ -92,4 +92,4 @@
   - [钢结构计算书模板](docs/04-calc/steel-template.md)
 
 - 💬 联系我
-  - [微信咨询 | 代做计算书](docs/07-contact/wechat.md)
+  - [微信咨询（13395357561手机号同微信号）](docs/07-contact/wechat.md)
