@@ -1,70 +1,95 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <title>结构工程师干货站 - 规范/教程/计算书一站式库</title>
-  <meta name="keywords" content="结构设计,PKPM教程,CAD技巧,结构规范,计算书模板,钢结构,地基基础,消防规范,理正教程">
-  <meta name="description" content="结构工程师专属干货站，免费分享结构规范、PKPM/CAD/3D3S教程、混凝土/钢结构计算书模板、Excel工具、标准图集，助力结构设计学习与工作！">
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/themes/vue.min.css">
-</head>
-<body>
-  <div id="app"></div>
+- 🏠 首页
+  - [关于本站](README.md)
 
-  <script>
-    window.$docsify = {
-      name: '结构工程师干货站',
-      repo: '',
-      loadSidebar: true,
-      subMaxLevel: 4,
-      search: 'auto',
-      homepage: 'README.md',
-      auto2top: true,
-      router: {
-        mode: 'hash',
-        base: '/share/'
-      }
-    }
-  </script>
+- 📖 建筑工程规范大全
+  - 🏗️ 01_结构专业
+    - 📜 [01通用规范（文件夹直达）](https://pan.baidu.com/s/1glR0xER2pa4_-Jxi5-Mo2A?pwd=76t1)
+      - 01 工程结构通用规范 GB 55001-2021
+      - 02 建筑与市政工程抗震通用规范 GB 55002-2021
+      - 03 建筑与市政地基基础通用规范 GB 55003-2021
+      - 04 组合结构通用规范 GB 55004-2021
+      - 05 木结构通用规范 GB 55005-2021
+      - 06 钢结构通用规范 GB 55006-2021
+      - 07 砌体结构通用规范 GB 55007-2021
+      - 08 混凝土结构通用规范 GB 55008-2021
+    - 📐 [02设计规范（文件夹直达）](https://pan.baidu.com/s/1G_haxeYgXkuC235imE2dLQ?pwd=rdp3)
+      - 01 建筑结构可靠性设计统一标准 GB 2050068-2024
+      - 02 建筑结构荷载规范 GB 50009-2012
+      - 03 建筑工程抗震设防分类标准 GB 50223-2008
+      - 04 建筑抗震设计规范 GB 50011-2010(2016版)
+      - 05 建筑工程施工质量验收统一标准 GB 50300-2013
+      - 06 建筑地基基础设计规范 GB 50007-2011
+      - 07 建筑桩基技术规范 JGJ 94-2008
+      - 08 建筑基桩检测技术规范 JGJ 106-2014
+    - ✅ [03施工验收规范（文件夹直达）](https://pan.baidu.com/s/1dvyI3YRvCpYuiyZgWr7m5w?pwd=9ct3)
+      - 01 混凝土结构工程施工质量验收规范 GB 50204-2015
+      - 02 钢结构工程施工质量验收标准 GB 50205-2020
+      - 03 建筑地基基础工程施工质量验收标准 GB 50202-2018
+    - 🗂️ [04图集（文件夹直达）](https://pan.baidu.com/s/1-j66DmDDDOR8GwqPHojm5w?pwd=x23w)
+      - 01 22G101系列混凝土结构施工图
+      - 02 钢结构连接节点设计手册对应图集
+      - 03 建筑地基基础构造图集
+    - 🏗️ [05加固类汇总（文件夹直达）](https://pan.baidu.com/s/1zN1u6GQwDjjMeka28bLw_w?pwd=jypg)
+      - 01 混凝土结构加固设计规范 GB 50367-2013
+      - 02 钢结构加固技术标准 GB 51367-2019
+      - 03 建筑结构加固工程施工质量验收规范 GB 50550-2010
+    - 🧩 [06装配式汇总（文件夹直达）](https://pan.baidu.com/s/1NaZSIcZv3Yest8MO1t3-Fw?pwd=q6y2)
+      - 01 装配式混凝土结构技术规程 JGJ 1-2014
+      - 02 装配式钢结构建筑技术标准 GB/T 51232-2016
+      - 03 装配式混凝土建筑技术标准 GB/T 51231-2016
+    - 📚 [07设计手册（文件夹直达）](https://pan.baidu.com/s/10nlVGthKpA-A3vAF8Fx2Bg?pwd=cp23)
+      - 01 建筑结构静力计算手册
+      - 02 混凝土结构设计手册
+      - 03 钢结构设计手册
+    - 📦 [08不常用但归类结构专业规范（文件夹直达）](https://pan.baidu.com/s/11qmC_PEmG-uiKTUmDhcaUQ?pwd=4n9f)
+      - 01 混凝土结构耐久性设计与施工指南CCES01-2004
+      - 02 石油化工钢制设备抗震设计规范GB50761-2012
+      - 03 钢管混凝土拱桥技术规范GB50923-2013
+    - 📦 [09不常用但归类结构专业图集（文件夹直达）](https://pan.baidu.com/s/1ZB2RimJVbOOYpL6gW-I9ww?pwd=22qv)
+      - 01 混凝土雨水检查井YBJ-PS04-2006
+      - 02 混凝土模块砌体排水检查井YBJ-PS06-2010
+      - 03 埋地无压预制混凝土排水圆形管管基及接口YBJ-PS03-2004
 
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/docsify.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/plugins/search.min.js"></script>
+  - 💧 02_给排水专业
+    - 📜 01通用规范
+      - [01 建筑给水排水设计标准 GB 50015-2019（文件夹直达）](https://pan.baidu.com/s/你的给排水通用链接#提取码)
+      - 02 节水型生活用水器具 CJ/T 164-2014
+    - 📐 02设计规范
+      - [01 室外给水设计标准 GB 50013-2018（文件夹直达）](https://pan.baidu.com/s/你的给排水设计链接#提取码)
+      - 02 室外排水设计标准 GB 50014-2021
+      - 03 建筑中水设计标准 GB 50336-2018
+    - ✅ 03验收规范
+      - [01 建筑给水排水及采暖工程施工质量验收规范 GB 50242-2002（文件夹直达）](https://pan.baidu.com/s/你的给排水验收链接#提取码)
+      - 02 城镇给水排水技术规范 GB 50788-2012
 
-  <style>
-  .spec-new {
-    color: #f53f3f !important;
-    font-weight: bold !important;
-    animation: blink 1.2s infinite alternate !important;
-  }
-  @keyframes blink {
-    from { opacity: 1; }
-    to { opacity: 0.6; }
-  }
-  </style>
+  - ⚡ 03_电气专业
+    - 📜 01通用规范
+      - [01 供配电系统设计规范 GB 50052-2011（文件夹直达）](https://pan.baidu.com/s/你的电气通用链接#提取码)
+      - 02 建筑物电气装置 GB 16895 系列
+    - 📐 02设计规范
+      - [01 低压配电设计规范 GB 50054-2011（文件夹直达）](https://pan.baidu.com/s/你的电气设计链接#提取码)
+      - 02 建筑照明设计标准 GB 50034-2013
+      - 03 建筑物防雷设计规范 GB 50057-2010
+    - ✅ 03验收规范
+      - [01 建筑电气工程施工质量验收规范 GB 50303-2015（文件夹直达）](https://pan.baidu.com/s/你的电气验收链接#提取码)
+      - 02 电气装置安装工程 电缆线路施工及验收标准 GB 50168-2018
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      setTimeout(() => {
-        const newSpecs = [
-          "01通用规范（文件夹直达）",
-          "02设计规范（文件夹直达）"
-        ];
-        const links = document.querySelectorAll('.sidebar-nav a');
-        let count = 0;
-        links.forEach(a => {
-          const t = a.innerText.trim();
-          if (newSpecs.some(s => t.includes(s))) {
-            a.classList.add('spec-new');
-            count++;
-          }
-        });
-        const today = new Date().toDateString();
-        const last = localStorage.getItem('lastSpecAlert');
-        if (count > 0 && last !== today) {
-          alert(`📢 规范更新提醒\n\n本次更新 ${count} 个分类，请查看红色高亮条目！`);
-          localStorage.setItem('lastSpecAlert', today);
-        }
-      }, 1800);
-    });
-  </script>
-</body>
-</html>
+  - 🔥 04_消防专业
+    - 📜 01通用规范
+      - [01 建筑设计防火规范 GB 50016-2014(2018版)（文件夹直达）](https://pan.baidu.com/s/你的消防通用链接#提取码)
+      - 02 消防应急照明和疏散指示系统 GB 17945-2010
+    - 📐 02设计规范
+      - [01 火灾自动报警系统设计规范 GB 50116-2013（文件夹直达）](https://pan.baidu.com/s/你的消防设计链接#提取码)
+      - 02 自动喷水灭火系统设计规范 GB 50084-2017
+      - 03 建筑防烟排烟系统技术标准 GB 51251-2017
+    - ✅ 03验收规范
+      - [01 火灾自动报警系统施工及验收标准 GB 50166-2019（文件夹直达）](https://pan.baidu.com/s/你的消防验收链接#提取码)
+      - 02 自动喷水灭火系统施工及验收规范 GB 50261-2017
+      - 03 消防给水及消火栓系统技术规范 GB 50974-2014
+
+- 📐 计算工具
+  - [混凝土梁正截面计算](docs/文档/04-calc/tool_beam.html)
+  - [钢结构计算书模板](docs/04-calc/steel-template.md)
+
+- 💬 联系我
+  - [微信咨询（13395357561手机号同微信号）](docs/07-contact/wechat.md)
