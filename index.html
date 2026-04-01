@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>结构工程师干货站</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- 补全https协议，国内稳定CDN -->
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/themes/vue.min.css">
 </head>
 <body>
   <div id="app"></div>
@@ -13,9 +14,14 @@
       loadSidebar: true,
       subMaxLevel: 4,
       homepage: 'README.md',
-      router: { mode: 'hash' }
+      // 🔴 核心修复：加base路径，适配/share/二级目录
+      router: {
+        mode: 'hash',
+        base: '/share/'
+      }
     };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- 补全https协议，国内稳定CDN -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/docsify.min.js"></script>
 </body>
 </html>
