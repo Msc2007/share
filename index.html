@@ -2,69 +2,20 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>结构工程师干货站 - 规范/教程/计算书一站式库</title>
-  <meta name="keywords" content="结构设计,PKPM教程,CAD技巧,结构规范,计算书模板,钢结构,地基基础,消防规范,理正教程">
-  <meta name="description" content="结构工程师专属干货站，免费分享结构规范、PKPM/CAD/3D3S教程、混凝土/钢结构计算书模板、Excel工具、标准图集，助力结构设计学习与工作！">
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/themes/vue.min.css">
+  <title>结构工程师干货站</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
   <div id="app"></div>
-
   <script>
     window.$docsify = {
       name: '结构工程师干货站',
-      repo: '',
       loadSidebar: true,
       subMaxLevel: 4,
-      search: 'auto',
       homepage: 'README.md',
-      auto2top: true,
-      router: {
-        mode: 'hash',
-        base: '/share/'
-      }
-    }
+      router: { mode: 'hash' }
+    };
   </script>
-
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/docsify.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.0/plugins/search.min.js"></script>
-
-  <style>
-  .spec-new {
-    color: #f53f3f !important;
-    font-weight: bold !important;
-    animation: blink 1.2s infinite alternate !important;
-  }
-  @keyframes blink {
-    from { opacity: 1; }
-    to { opacity: 0.6; }
-  }
-  </style>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      setTimeout(() => {
-        const newSpecs = [
-          "01通用规范（文件夹直达）",
-          "02设计规范（文件夹直达）"
-        ];
-        const links = document.querySelectorAll('.sidebar-nav a');
-        let count = 0;
-        links.forEach(a => {
-          const t = a.innerText.trim();
-          if (newSpecs.some(s => t.includes(s))) {
-            a.classList.add('spec-new');
-            count++;
-          }
-        });
-        const today = new Date().toDateString();
-        const last = localStorage.getItem('lastSpecAlert');
-        if (count > 0 && last !== today) {
-          alert(`📢 规范更新提醒\n\n本次更新 ${count} 个分类，请查看红色高亮条目！`);
-          localStorage.setItem('lastSpecAlert', today);
-        }
-      }, 1800);
-    });
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 </body>
 </html>
